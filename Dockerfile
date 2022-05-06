@@ -28,4 +28,4 @@ RUN node -v
 RUN npm install yarn -g
 
 ########## Install Dev Tools
-RUN apt-get -q install nano -y
+RUN apt-get -q install nano net-tools psmisc -y
